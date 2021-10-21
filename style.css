@@ -1,0 +1,72 @@
+*{
+    padding: -20px;
+    margin: -20px;
+}
+
+body{
+    background-color: #D7A159;
+    overflow-x: hidden;
+}
+
+img{
+    text-align: center;
+    position: relative;
+    
+}
+.nav{
+    text-align: center;
+    position: relative;
+   
+}
+
+
+.nav h1{
+    position: absolute;
+}
+
+.rightnav{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 256px;
+    height: 22px;
+    left: 1110px;
+    top: 5%;
+}
+
+
+#coffee{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 50%;
+    top: 5%;
+}
+
+#text{
+    position: absolute;
+    width: 113px;
+    height: 29px;
+    left: 13.5%;
+    top: 5%;
+
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.6279px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FBFBFB;
+}
+
+#rightnav{
+   position: absolute;
+   top: 5%;
+   right: 10%;
+   color: white;;
+}
+
